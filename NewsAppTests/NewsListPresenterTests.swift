@@ -6,7 +6,6 @@
 //
 
 import XCTest
-
 @testable import NewsApp
 
 class NewsListPresenterTests: XCTestCase {
@@ -45,7 +44,7 @@ class NewsListPresenterTests: XCTestCase {
         
         sut.didCalledRefresh()
         
-        XCTAssertFalse(viewController.iscalledreloadTableView)
+        XCTAssertFalse(viewController.iscalledReloadTableView)
         XCTAssertFalse(viewController.iscalledEndRefreshing)
     }
     
@@ -54,7 +53,7 @@ class NewsListPresenterTests: XCTestCase {
         
         sut.didCalledRefresh()
         
-        XCTAssertTrue(viewController.iscalledreloadTableView)
+        XCTAssertTrue(viewController.iscalledReloadTableView)
         XCTAssertTrue(viewController.iscalledEndRefreshing)
     }
 }

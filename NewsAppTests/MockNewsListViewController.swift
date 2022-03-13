@@ -13,7 +13,7 @@ final class MockNewsListViewController: NewsListProtocol {
     var iscalledSetupLayout = false
     var iscalledEndRefreshing = false
     var iscalledmoveToNewsWebViewController = false
-    var iscalledreloadTableView = false
+    var iscalledReloadTableView = false
     
     func setupNavigationBar() {
         isCalledSetupNavigationBar = true
@@ -32,6 +32,6 @@ final class MockNewsListViewController: NewsListProtocol {
     }
     
     func reloadTableView() {
-        iscalledreloadTableView = true
+        iscalledReloadTableView = true
     }
 }
