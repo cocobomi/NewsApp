@@ -6,8 +6,8 @@
 //
 
 import SnapKit
-import TTGTags
 import UIKit
+import TTGTags
 
 protocol NewsListTableViewHeaderViewDelegate: AnyObject {
     func didSelectTag(_ selectedIndex: Int)

@@ -10,7 +10,7 @@ import Foundation
 
 final class MockNewsSearchManager: NewsSearchManagerProtocol {
     var error: Error?
-    var iscalledRequest = false
+    var isCalledRequest = false
     
     func request(
         from keyword: String,
@@ -18,7 +18,7 @@ final class MockNewsSearchManager: NewsSearchManagerProtocol {
         display: Int,
         completionHandler: @escaping ([News]) -> Void
     ) {
-        iscalledRequest = true
+        isCalledRequest = true
         
         if error == nil {
             completionHandler([])

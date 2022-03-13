@@ -36,7 +36,7 @@ class NewsListPresenterTests: XCTestCase {
         sut.viewDidLoad()
         
         XCTAssertTrue(viewController.isCalledSetupNavigationBar)
-        XCTAssertTrue(viewController.iscalledSetupLayout)
+        XCTAssertTrue(viewController.isCalledSetupLayout)
     }
     
     func test_didCalledRefresh가_요청될때_request에_실패하면() {
@@ -44,8 +44,8 @@ class NewsListPresenterTests: XCTestCase {
         
         sut.didCalledRefresh()
         
-        XCTAssertFalse(viewController.iscalledReloadTableView)
-        XCTAssertFalse(viewController.iscalledEndRefreshing)
+        XCTAssertFalse(viewController.isCalledReloadTableView)
+        XCTAssertFalse(viewController.isCalledEndRefreshing)
     }
     
     func test_didCalledRefresh가_요청될때_request에_성공하면() {
@@ -53,8 +53,8 @@ class NewsListPresenterTests: XCTestCase {
         
         sut.didCalledRefresh()
         
-        XCTAssertTrue(viewController.iscalledReloadTableView)
-        XCTAssertTrue(viewController.iscalledEndRefreshing)
+        XCTAssertTrue(viewController.isCalledReloadTableView)
+        XCTAssertTrue(viewController.isCalledEndRefreshing)
     }
 }
 

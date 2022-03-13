@@ -10,28 +10,28 @@ import Foundation
 
 final class MockNewsListViewController: NewsListProtocol {
     var isCalledSetupNavigationBar = false
-    var iscalledSetupLayout = false
-    var iscalledEndRefreshing = false
-    var iscalledmoveToNewsWebViewController = false
-    var iscalledReloadTableView = false
+    var isCalledSetupLayout = false
+    var isCalledEndRefreshing = false
+    var isCalledMoveToNewsWebViewController = false
+    var isCalledReloadTableView = false
     
     func setupNavigationBar() {
         isCalledSetupNavigationBar = true
     }
     
     func setupLayout() {
-        iscalledSetupLayout = true
+        isCalledSetupLayout = true
     }
     
     func endRefreshing() {
-        iscalledEndRefreshing = true
+        isCalledEndRefreshing = true
     }
     
     func moveToNewsWebViewController(with news: News) {
-        iscalledmoveToNewsWebViewController = true
+        isCalledMoveToNewsWebViewController = true
     }
     
     func reloadTableView() {
-        iscalledReloadTableView = true
+        isCalledReloadTableView = true
     }
 }
