@@ -13,7 +13,6 @@
 		C90A074027DC6FFF001747F7 /* NewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A073F27DC6FFF001747F7 /* NewsListViewController.swift */; };
 		C90A074527DC7001001747F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C90A074427DC7001001747F7 /* Assets.xcassets */; };
 		C90A074827DC7001001747F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90A074627DC7001001747F7 /* LaunchScreen.storyboard */; };
-		C90A075327DC7001001747F7 /* NewsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A075227DC7001001747F7 /* NewsAppTests.swift */; };
 		C90A075D27DC7001001747F7 /* NewsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A075C27DC7001001747F7 /* NewsAppUITests.swift */; };
 		C90A075F27DC7001001747F7 /* NewsAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A075E27DC7001001747F7 /* NewsAppUITestsLaunchTests.swift */; };
 		C90A076D27DC7119001747F7 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C90A076C27DC7119001747F7 /* SnapKit */; };
@@ -26,6 +25,9 @@
 		C90A077F27DCA4F1001747F7 /* NewsResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A077E27DCA4F1001747F7 /* NewsResponseModel.swift */; };
 		C90A078227DCA5D9001747F7 /* NewsSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A078127DCA5D9001747F7 /* NewsSearchManager.swift */; };
 		C90A078727DCCF52001747F7 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A078627DCCF52001747F7 /* String+.swift */; };
+		C90A078927DD8475001747F7 /* NewsListPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A078827DD8475001747F7 /* NewsListPresenterTests.swift */; };
+		C90A078B27DD85FE001747F7 /* MockNewsSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A078A27DD85FE001747F7 /* MockNewsSearchManager.swift */; };
+		C90A078D27DD8648001747F7 /* MockNewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A078C27DD8648001747F7 /* MockNewsListViewController.swift */; };
 		F10C3CD9924EF0B3B4E46C36 /* Pods_NewsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6761AE6C713C8E13C7FC74F /* Pods_NewsApp.framework */; };
 		F80E61F573924228ABA81FF0 /* Pods_NewsApp_NewsAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38FEEF13E024E2AB17E8B3B5 /* Pods_NewsApp_NewsAppUITests.framework */; };
 /* End PBXBuildFile section */
@@ -64,7 +66,6 @@
 		C90A074727DC7001001747F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C90A074927DC7001001747F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C90A074E27DC7001001747F7 /* NewsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C90A075227DC7001001747F7 /* NewsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAppTests.swift; sourceTree = "<group>"; };
 		C90A075827DC7001001747F7 /* NewsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C90A075C27DC7001001747F7 /* NewsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAppUITests.swift; sourceTree = "<group>"; };
 		C90A075E27DC7001001747F7 /* NewsAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -76,6 +77,9 @@
 		C90A077E27DCA4F1001747F7 /* NewsResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsResponseModel.swift; sourceTree = "<group>"; };
 		C90A078127DCA5D9001747F7 /* NewsSearchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsSearchManager.swift; sourceTree = "<group>"; };
 		C90A078627DCCF52001747F7 /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		C90A078827DD8475001747F7 /* NewsListPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListPresenterTests.swift; sourceTree = "<group>"; };
+		C90A078A27DD85FE001747F7 /* MockNewsSearchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNewsSearchManager.swift; sourceTree = "<group>"; };
+		C90A078C27DD8648001747F7 /* MockNewsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNewsListViewController.swift; sourceTree = "<group>"; };
 		F27F495CFE9ED99763E6FD04 /* Pods-NewsApp-NewsAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsApp-NewsAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-NewsApp-NewsAppUITests/Pods-NewsApp-NewsAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -173,7 +177,9 @@
 		C90A075127DC7001001747F7 /* NewsAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				C90A075227DC7001001747F7 /* NewsAppTests.swift */,
+				C90A078827DD8475001747F7 /* NewsListPresenterTests.swift */,
+				C90A078A27DD85FE001747F7 /* MockNewsSearchManager.swift */,
+				C90A078C27DD8648001747F7 /* MockNewsListViewController.swift */,
 			);
 			path = NewsAppTests;
 			sourceTree = "<group>";
@@ -312,6 +318,7 @@
 					};
 					C90A074D27DC7001001747F7 = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
 						TestTargetID = C90A073727DC6FFF001747F7;
 					};
 					C90A075727DC7001001747F7 = {
@@ -496,7 +503,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C90A075327DC7001001747F7 /* NewsAppTests.swift in Sources */,
+				C90A078B27DD85FE001747F7 /* MockNewsSearchManager.swift in Sources */,
+				C90A078D27DD8648001747F7 /* MockNewsListViewController.swift in Sources */,
+				C90A078927DD8475001747F7 /* NewsListPresenterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -718,15 +727,22 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 24Z2VJ3B5C;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tistory.iosgoal.NewsAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewsApp.app/NewsApp";
@@ -739,11 +755,17 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 24Z2VJ3B5C;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tistory.iosgoal.NewsAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
