@@ -30,8 +30,8 @@ struct NewsSearchManager: NewsSearchManagerProtocol {
         
         let parameters = NewsRequestModel(start: start, display: display, query: keyword)
         let headers: HTTPHeaders = [
-            "X-Naver-Client-Id": "개인키",
-            "X-Naver-Client-Secret": "시크릿키"
+            "X-Naver-Client-Id": "Bk0CMDs1RoSMngnwZ0T3",
+            "X-Naver-Client-Secret": "ruk6az4As1"
         ]
         
         AF.request(url, method: .get, parameters: parameters, headers: headers)
